@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 51px 188px;
+  background-color: #010B41;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  width: 255px;
+  height: 96px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.login-btn {
+  background-color: #046CB0;
+  color: white;
+  width: 133px;
+  height: 43px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}

@@ -1,0 +1,36 @@
+.features {
+  background-color: #010B41;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.steps-title {
+  color: #FAA324;
+  font-weight: bold;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.step {
+  max-width: 300px;
+}
+
+.circle {
+  background-color: #FAA324;
+  color: white;
+  font-size: 2rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
