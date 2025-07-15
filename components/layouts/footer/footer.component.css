@@ -1,0 +1,39 @@
+.footer {
+  background-color: #010922;
+  color: white;
+  padding: 4rem 188px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer img {
+  height: 62px;
+  width: 165px;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer h4 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0 20px;
+}
