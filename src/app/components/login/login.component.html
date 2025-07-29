@@ -1,10 +1,10 @@
 <form action="submit" class="login-form"> 
     <label for="" class="form-label">usuario</label>
-    <input class="form-input" type="text" placeholder="tu usuario">
+    <input class="form-input" type="text" placeholder="tu usuario" name="usuario" [(ngModel)] = "usuario">
     <label for="" class="form-label">password</label>
-    <input type="password" class="form-input" name="" id="" placeholder="">
+    <input type="password" class="form-input" name="contrasenia" id="" placeholder="" [(ngModel)] = "contrasenia">
     <div class="botones">
-        <button class="form-button boton-login">iniciar sesion</button>
+        <button class="form-button boton-login" (click)="login()">iniciar sesion</button>
         <button class="form-button boton-registro">registrarse</button>
     </div>
     

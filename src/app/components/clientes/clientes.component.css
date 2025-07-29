@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif;
+    font-weight:bold;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+button{
+    background-color: #Faa324;
+}
